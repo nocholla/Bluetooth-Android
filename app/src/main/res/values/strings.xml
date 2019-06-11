@@ -23,7 +23,7 @@
     <string name="button_scan">Scan for devices</string>
 
     <!-- Options Menu -->
-    <string name="connect">Connect a device</string>
-    <string name="discoverable">Make discoverable</string>
+    <string name="connect">Connect</string>
+    <string name="discoverable">Discover</string>
 
 </resources>
