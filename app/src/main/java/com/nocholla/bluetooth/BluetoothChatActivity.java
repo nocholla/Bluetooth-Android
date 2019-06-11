@@ -260,11 +260,13 @@ public class BluetoothChatActivity extends Activity {
         }
     }
 
+    // Connect Button
     public void connect(View v) {
         Intent serverIntent = new Intent(this, DeviceListActivity.class);
         startActivityForResult(serverIntent, REQUEST_CONNECT_DEVICE);
     }
 
+    // Discover Button
     public void discoverable(View v) {
         ensureDiscoverable();
     }
