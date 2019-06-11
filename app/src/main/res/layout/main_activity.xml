@@ -8,7 +8,7 @@
 
     <Button
         android:id="@+id/scan"
-        android:layout_width="100dp"
+        android:layout_width="@dimen/width_one_hundred_fifty"
         android:layout_height="wrap_content"
         android:onClick="connect"
         android:layout_marginStart="@dimen/margin_twenty"
@@ -24,7 +24,7 @@
 
     <Button
         android:id="@+id/discoverable"
-        android:layout_width="100dp"
+        android:layout_width="@dimen/width_one_hundred_fifty"
         android:layout_height="wrap_content"
         android:onClick="discoverable"
         android:layout_marginTop="@dimen/margin_twenty"
@@ -40,7 +40,7 @@
 
     <EditText
         android:id="@+id/edit_text_out"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/width_zero"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_twenty"
         android:layout_marginLeft="@dimen/margin_twenty"
@@ -54,7 +54,7 @@
 
     <Button
         android:id="@+id/button_send"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/width_zero"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_twenty"
         android:layout_marginLeft="@dimen/margin_twenty"
@@ -73,7 +73,7 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/my_recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/height_zero"
         android:layout_weight="1"
         android:layout_marginTop="@dimen/margin_twenty"
         android:paddingLeft="10dp"
