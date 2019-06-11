@@ -8,7 +8,7 @@
 
     <Button
         android:id="@+id/scan"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:onClick="connect"
         android:layout_marginStart="@dimen/margin_twenty"
@@ -24,10 +24,17 @@
 
     <Button
         android:id="@+id/discoverable"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:onClick="discoverable"
+        android:layout_marginTop="@dimen/margin_twenty"
+        android:layout_marginEnd="@dimen/margin_twenty"
+        android:layout_marginRight="@dimen/margin_twenty"
+        android:background="@drawable/button_shaded_radius_twenty"
         android:text="@string/discoverable"
+        android:textSize="@dimen/text_fifteen"
+        android:textColor="@color/text_white"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
