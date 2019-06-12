@@ -2,7 +2,6 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -10,10 +9,10 @@
         android:id="@+id/title_paired_devices"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#666"
-        android:paddingLeft="5dp"
+        android:background="@color/background_black"
+        android:padding="@dimen/padding_ten"
         android:text="@string/title_paired_devices"
-        android:textColor="#fff"
+        android:textColor="@color/text_white"
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,11 +28,12 @@
     <TextView
         android:id="@+id/title_new_devices"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/background_grey_dark"
-        android:paddingLeft="5dp"
+        android:layout_height="@dimen/height_fifty"
+        android:background="@color/background_black"
+        android:padding="@dimen/padding_ten"
         android:text="@string/title_other_devices"
         android:textColor="@color/text_white"
+        android:textSize="@dimen/text_fifteen"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +49,7 @@
 
     <Button
         android:id="@+id/button_scan"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/width_zero"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_twenty"
         android:layout_marginLeft="@dimen/margin_twenty"
